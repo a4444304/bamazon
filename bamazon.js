@@ -35,7 +35,7 @@ var promptCustomer = function(res){
         if(answer.choice.toUpperCase()=="Q"){
             process.exit();
         }
-        console.log("HEY LISTEN! " + answer + '\n' + answer.choice)
+        
         for(var i=0;i<res.length;i++){
             if(res[i].productname==answer.choice){
                 correct=true;
@@ -53,7 +53,6 @@ var promptCustomer = function(res){
                         }
                     }
                 }).then(function(answer){
-                    console.log("HERE I AM")
                     if((res[id].stockquantity-answer.quant)>0){
                         console.log(res[id].stockquantity-answer.quant)
                         console.log("product: " + product)
