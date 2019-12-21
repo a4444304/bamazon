@@ -1,6 +1,6 @@
 # Bamazon
 
-![](https://github.com/a4444304/bamazon/blob/master/assets/images/readme-1.jpg)
+![](https://github.com/a4444304/bamazon/blob/master/assets/images/readme-1.JPG?raw=true)
 ![](https://github.com/a4444304/bamazon/assets/images/readme-2.jpg)
 
 ## Description
